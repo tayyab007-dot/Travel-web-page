@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images\ \(12\).jpeg')  ;  
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center; 
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: rgba(44, 62, 80, 0.9);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .site-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* NAVBAR LINKS */
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    
+    color: #fff;
+    font-size: 16px;
+}
+
+.navbar .nav-links li{
+    margin-left: 5px;
+}
+
+.navbar .nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-links li a:hover{
+    /* background-color: #34495e;
+    border-radius: 4px; */
+    text-decoration: underline;
+}
+
+/* NAVBAR SEARCH */
+ .navbar .nav-search input{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    outline: none;
+}
+
+ .navbar .nav-search .button{
+    
+    margin-top: 3px;
+    padding: 5px;
+    border: none;
+    background-color: #006666;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+ .nav-search .button:hover{
+    background-color: #004d4d;
+}
+
+.hero-section{
+    height: 90vh;
+    /* padding-left: 1px; */
+    /* margin-left: 1px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+    color: black;
+    position: relative;
+    padding-left: 10%;
+}
+
+.para{
+    padding-top: 40px;
+
+}
+
+.book-now{
+    /* padding-top: 30px; */
+    margin-top: 20px;
+    /* margin-top: 3px; */
+    padding: 5px;
+    border: none;
+    background-color: #006666;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.book-now:hover {
+    background-color: #004d4d;
+}
+
+/* CONTACT US */
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-contact a{
+    color: white;
+    font-size: 1px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a .active{
+    /* font-weight: bold; */
+    border-bottom: 2px solid white;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.form-group{
+    margin-bottom: 5px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contact-container{
+     /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+     height: 80vh; 
+ background: rgba(255, 255, 255, 0.2);
+    padding:20px;
+    margin-left: 0px;
+    border-radius: 10px;
+    text-align: right; 
+    backdrop-filter: blur(10px);
+    /* width: 100px;  */
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    width: 500px;
+    height: 70px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    width: 30%;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input, textarea{
+    /* height: 100px; */
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    height: 60px;
+
+}
+
+.submit-btn{
+    background:#007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* ABOUT US */
+
+
+.About-heading{
+    color: red;
+}
+header {
+    color: white; 
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.team {
+    margin: 50px 0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.team-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.role {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}
